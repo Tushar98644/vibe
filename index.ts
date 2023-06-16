@@ -26,7 +26,7 @@ import {
   blockchain,
   next,
   django,
-} from "../assets";
+} from "./assets";
 
 export const navLinks = [
   {
