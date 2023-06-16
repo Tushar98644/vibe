@@ -16,11 +16,11 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const { context, github } = toolkit;
+            const { toolkit } = require("@actions/github");
             const labelToAdd = 'merged';
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
+            await toolkit.context.octokit.rest.issues.addLabels({
+              owner: toolkit.context.repo.owner,
+              repo: toolkit.context.repo.repo,
+              issue_number: toolkit.context.issue.number,
               labels: [labelToAdd],
             });
