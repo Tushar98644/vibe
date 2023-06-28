@@ -2,7 +2,7 @@ name: "Pull Request Labeler and Commenter"
 on:
   pull_request:
     types:
-      - opened
+      - closed
 
 jobs:
   process_pull_request:
