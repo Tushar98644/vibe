@@ -7,13 +7,18 @@ jobs:
   add-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Check if PR is merged
-        id: check-merged
-        run: echo "::set-output name=merged::${{ github.event.pull_request.merged }}"
-      
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Add 'approved' label
-        if: steps.check-merged.outputs.merged == 'true'
-        uses: actions/labeler@v2
+        if: github.event.pull_request.merged == 'true'
+        uses: actions/github-script@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: Approved
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['Approved']
+            })
