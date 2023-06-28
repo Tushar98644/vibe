@@ -1,1 +1,41 @@
+name: "Pull Request Labeler and Commenter"
+on:
+  pull_request:
+    types:
+      - opened
 
+jobs:
+  process_pull_request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Apply Approved label
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const isContributor = pr.user.type === 'User';
+            const comment = isContributor ? 'Hello, contributor! Thank you so much for your contribution to our project. We really appreciate your time and effort. Your work has made a valuable impact, and we're excited to see it in action. Keep up the great work!' : 'Hello, Dependabot!Thank you for updating the dependencies in this pull request. Your automated work helps us keep our project up to date and secure. We appreciate your contribution to maintaining a healthy codebase. Keep up the good work!';
+            const { data: labels } = await github.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number
+            });
+            const approvedLabel = labels.find(label => label.name === 'Approved');
+            if (pr.labels.find(label => label.name === 'Approved') === undefined && approvedLabel) {
+              await github.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                labels: [approvedLabel.name]
+              });
+            }
+            await github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body: comment
+            });
