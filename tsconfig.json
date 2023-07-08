@@ -5,10 +5,10 @@
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
   },
   "include": [
-    "**/*.{ts,tsx}"
+    "**/*.{ts,tsx,js,jsx}",
   ],
   "exclude": [
     "node_modules",
