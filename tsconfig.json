@@ -1,13 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      "jsx": "react-jsx",
-      "moduleResolution": "node",
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["**/*.{ts,tsx}"],
-    "exclude": ["node_modules", "build"]
-  }
-  
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.{ts,tsx}"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

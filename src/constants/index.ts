@@ -56,10 +56,6 @@ const services = [
     title: "Game Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -119,8 +115,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Google",
+    title: "Student Developer",
+    company_name: "Code for Govtech(C4GT)",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -175,7 +171,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "TESTIMONIAL 1",
     name: "Sara Lee",
     designation: "CFO",
     company: "Apple",
@@ -183,7 +179,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "TESTIMONIAL 2",
     name: "Chris Brown",
     designation: "COO",
     company: "Google",
@@ -191,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    "TESTIMONIAL 3",
     name: "Lisa Wang",
     designation: "CTO",
     company: "Microsoft",
