@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import C4GT from "./company/C4GT.png";
 import SWC from "./company/swc.png";
-import Translead from "./company/translead.png";
+import Translead from "./company/Translead.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
