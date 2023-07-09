@@ -195,12 +195,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: " Gymkhana Website",
+    name: " ProjectHub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based comprehensive platform that integrates various AI-powered tools and useful websites for people's everyday needs.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
@@ -216,20 +216,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Placement Portal",
+    name: "Event Manager",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application serving as a one-stop solution for students to organize, manage, and process the data for the club. Students have the option of saving event photographs to see later in a lovely gallery.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
@@ -242,15 +242,15 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "figma",
         color: "pink-text-gradient",
       },
     ],
