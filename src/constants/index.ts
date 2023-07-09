@@ -26,6 +26,9 @@ import {
   blockchain,
   next,
   django,
+  C4GT,
+  SWC,
+  Translead,
 } from "../assets";
 
 export const navLinks = [
@@ -59,14 +62,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -111,59 +114,54 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
 ];
 
 const experiences = [
   {
     title: "Student Developer",
     company_name: "Code for Govtech(C4GT)",
-    icon: starbucks,
+    icon: C4GT,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working on the uci-web-channel turborepo to refactor the broken eslint and Prettier configuration and setup Husky for pre-commit hooks",
+      "Refactor the entire codebase to make it configurable and setup unit tests with jest/Cypress"
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Student’s Web Committee",
+    icon: SWC,
+    iconBg: "#383E56",
+    date: "Nov 2022 - Present",
+    points: [
+      "Built the entire backend of the campus Gymkhana portal using Django web framework",
+      "Added the feature of comparing the placement data of two years and displaying it in a chart in the Placement Statistics Portal",
+      "Built all models for the backend of the Student Affairs portal in strapi",
     ],
   },
   {
     title: "Flutter Developer",
-    company_name: "Apple",
+    company_name: "Protofac",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the entire interface of the app, intergrated with Firebase backend for real time data fetching and updates from Firestore",
     ],
   },
   {
-    title: "Game Developer",
-    company_name: " Gameloft",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web3 Developer",
-    company_name: "MetaMask",
-    icon: meta,
+    title: "Web Developer",
+    company_name: "Translead",
+    icon: Translead,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Initiated & coordinated with a design intern to develop the etntire website from scratch using Next.js and deploying to vercel",
     ],
   },
 ];
@@ -187,7 +185,7 @@ const testimonials = [
   },
   {
     testimonial:
-    "TESTIMONIAL 3",
+      "TESTIMONIAL 3",
     name: "Lisa Wang",
     designation: "CTO",
     company: "Microsoft",

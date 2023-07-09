@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import C4GT from "./company/C4GT.png";
+import SWC from "./company/swc.png";
+import Translead from "./company/translead.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +68,7 @@ export {
   blockchain,
   next,
   django,
+  C4GT,
+  SWC,
+  Translead,
 };
