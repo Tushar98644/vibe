@@ -1222,10 +1222,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-maath@^0.5.2:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/maath/-/maath-0.5.3.tgz#777a1f9b8463c6ffb199ea43406874a357c0cd58"
-  integrity sha512-ut63A4zTd9abtpi+sOHW1fPWPtAFrjK0E17eAthx1k93W/T2cWLKV5oaswyotJVDvvW1EXSdokAqhK5KOu0Qdw==
+maath@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/maath/-/maath-0.10.1.tgz#9fc43dc9c276ca8cf6fdd8026dbcf7b489429b10"
+  integrity sha512-FJaXuBqznu6rGiQwcT5lxahWZBmKlh/jzaJr3wAR//I/GOTD+kjEvO1BHY3lcR+qgOGqNwmfe95l/BG8fqK6/g==
 
 maath@^0.6.0:
   version "0.6.0"
