@@ -23,7 +23,7 @@
     "react-router-dom": "^6.21.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.159.0"
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
