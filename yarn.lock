@@ -998,9 +998,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.601:
-  version "1.4.618"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.618.tgz#98899b3c78495157cc2fe4944316f686939a435d"
-  integrity sha512-mTM2HieHLxs1RbD/R/ZoQLMsGI8lWIkP17G7cx32mJRBJt9wlNPkXwE3sYg/OnNb5GBkus98lXatSthoL8Y5Ag==
+  version "1.4.621"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.621.tgz#ccd523ed94373548dd913e0aa63601afac9d24f3"
+  integrity sha512-MGJM6S0MuF/wTzM9NoItWXN56J1kolrHS/vzl/KlhXAbVkogTy0wzKYliQDJgNypxSCFjxdRhHYS3bffyYUGEw==
 
 email-addresses@^5.0.0:
   version "5.0.0"
