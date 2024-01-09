@@ -15,7 +15,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
-    "framer-motion": "^10.17.9",
+    "framer-motion": "^10.17.12",
     "gh-pages": "^6.1.1",
     "maath": "^0.10.7",
     "react": "^18.2.0",
