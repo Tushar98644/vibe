@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
+import { Analytics } from '@vercel/analytics/react';
 
 import Layout from "../components/Layout";
 import Transition from "../components/Transition";
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }) {
         <motion.div key={router.route} className="h-full">
           <Transition />
           <Component {...pageProps} />
+          <Analytics />
         </motion.div>
       </AnimatePresence>
     </Layout>
