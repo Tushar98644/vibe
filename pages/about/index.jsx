@@ -7,13 +7,30 @@ import {
   FaHtml5,
   FaJs,
   FaReact,
-  FaWordpress,
+  FaVuejs,
+  FaNodeJs,
+  FaUnity,
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiAdobexd,
   SiFramer,
+  SiGrafana,
   SiNextdotjs,
+  SiPrometheus,
+  SiRubyonrails,
+  SiTypescript,
+  SiDocker,
+  SiKubernetes,
+  SiDjango,
+  SiTailwindcss,
+  SiFlutter,
+  SiThreedotjs,
+  SiCplusplus,
+  SiFirebase,
+  SiTurborepo,
+  SiStrapi,
+  SiSanity,
 } from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
@@ -30,29 +47,46 @@ export const aboutData = [
         icons: [
           FaHtml5,
           FaCss3,
+          SiTailwindcss,
           FaJs,
+          SiTypescript,
           FaReact,
           SiNextdotjs,
+          FaVuejs,
+          SiRubyonrails,
+          SiDjango,
+          SiCplusplus,
+          SiTurborepo,
+          SiThreedotjs,
+          FaNodeJs,
           SiFramer,
-          FaWordpress,
+          SiStrapi,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        icons: [FaFigma],
       },
+      {
+        title : "DevOps",
+        icons : [SiDocker, SiKubernetes, SiPrometheus, SiGrafana]
+      },
+      {
+        title : "Game Development",
+        icons : [FaUnity,SiThreedotjs]
+      },
+      {
+        title : "App Development",
+        icons: [SiFlutter,SiFirebase]
+      }
     ],
   },
   {
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Codepeak - 2nd Runner Up",
+        stage: "2022",
       },
     ],
   },
@@ -60,16 +94,16 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Open source Contributor - Code for Govtech",
+        stage: "2023",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Web Developer Intern - Translead",
+        stage: "2023",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Flutter Intern - Protofac",
+        stage: "2023",
       },
     ],
   },
@@ -77,16 +111,16 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Biosciences and Bioengineering - IIT Guwahati, Assam, India",
+        stage: "2025",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Senior High - Allen Guwahati, Assam, India",
+        stage: "2021",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "High school - South Point School, Guwahati, Assam, India",
+        stage: "2019",
       },
     ],
   },
@@ -129,7 +163,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
+            2 years ago, I began my journey as a developer. Since then, I've
             done remote work for agencies, consulted for startups, and
             collabrated on digital products for business and consumer use.
           </motion.p>
@@ -145,7 +179,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={2} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
@@ -155,7 +189,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
+                  <CountUp start={0} end={4} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients.
@@ -165,7 +199,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={40} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.
@@ -175,7 +209,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />
+                  <CountUp start={0} end={2} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards.
@@ -219,12 +253,14 @@ const About = () => {
                 <div className="hidden md:flex">-</div>
                 <div>{item.stage}</div>
 
-                <div className="flex gap-x-4">
+                <div className="flex gap-x-4 gap-y-4 flex-wrap">
                   {/* icons */}
                   {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="text-2xl text-white">
-                      <Icon />
-                    </div>
+                      <div key={iconI}
+                        className="text-2xl text-white hover:scale-125 ease-in-out transition-transform duration-300"
+                      >
+                        <Icon />
+                      </div>
                   ))}
                 </div>
               </div>

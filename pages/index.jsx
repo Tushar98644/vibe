@@ -32,10 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Hey there! I'm Tushar Banik, a 3rd-year undergraduate student at IIT Guwahati. As an enthusiastic DevOps and Site Reliability Engineer (SRE), my focus lies in architecting and implementing robust, scalable, and automated solutions for complex digital ecosystems .My technical pursuits involve implementing Infrastructure as Code (IaC), designing resilient and fault-tolerant systems, and streamlining the deployment pipeline. 
           </motion.p>
 
           {/* btn */}

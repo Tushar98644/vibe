@@ -15,23 +15,23 @@ import "swiper/css/pagination";
 
 const serviceData = [
   {
-    Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
     Icon: RxDesktop,
     title: "Development",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
+    Icon: RxCrop,
+    title: "Devops",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    Icon: RxPencil2,
+    title: "Editing",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
     Icon: RxReader,
-    title: "Copywriting",
+    title: "Design",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
