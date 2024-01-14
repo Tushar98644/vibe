@@ -63,9 +63,7 @@ const ParticlesContainer = () => {
           move: {
             direction: "none",
             enable: true,
-            outMode: {
-              default: "bounce",
-            },
+            outMode: "bounce",
             random: false,
             speed: 1,
             straight: false,
