@@ -13,48 +13,48 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
+          title: "ProjectHub",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://project-hub-olive.vercel.app",
         },
         {
-          title: "title",
+          title: "Code-Crafted",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/Code-Crafted",
         },
         {
-          title: "title",
+          title: "Gymkhana Portal",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/IITG-Gymkhana_Portal/tree/master",
         },
         {
-          title: "title",
+          title: "Zombie Apocalypse",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/Zombie_Apocalypse",
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
+          title: "Event Manager",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/Techexpo_EventsManager",
         },
         {
-          title: "title",
+          title: "3D-portfolio",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/3D-Portfolio",
         },
         {
-          title: "title",
+          title: "Endless Runner",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://github.com/Tushar98644/Endless-Runner",
+        },
+        {
+          title: "3D-Rickshaw",
+          path: "/thumb4.jpg",
+          link: "https://github.com/Tushar98644/3D-Rickshaw",
         },
       ],
     },
@@ -103,11 +103,9 @@ const WorkSlider = () => {
                       className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]"
                     >
                       {/* title part 1 */}
-                      <div className="delay-100">LIVE</div>
+                      <div className="delay-100">{image.title}</div>
                       {/* title part 2 */}
-                      <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                        PROJECT
-                      </div>
+                      <div className="translate-y-[500%] group-hover:translate-y-20 transition-all duration-300 delay-150"></div>
                       {/* icon */}
                       <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
                         <BsArrowRight aria-hidden />
