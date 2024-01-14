@@ -97,7 +97,7 @@ Here is the folder structure of this app.
 
 ## :wrench: Stats
 
-[![Stats for 3D Portfolio](/.github/images/stats.svg "Stats for 3D Portfolio")](https://vercel.com/tushar98644/3-d-portfolio/speed-insights/ "Stats for 3D Portfolio")
+[Stats for 3D Portfolio](https://pagespeed-insights-svg.glitch.me/?url=https://3-d-portfolio-sooty.vercel.app/ "Stats for 3D Portfolio")
 
 ## :raised_hands: Contribute
 
