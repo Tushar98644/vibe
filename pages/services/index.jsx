@@ -31,8 +31,10 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Unlock tailored solutions for your needs with my services. I
+              specialize in crafting practical, effective, and unique solutions
+              that elevate your projects. From concept to execution, I'm here to
+              turn your vision into a reality.
             </motion.p>
           </div>
 

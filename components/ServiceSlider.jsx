@@ -17,28 +17,29 @@ const serviceData = [
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Crafting innovative digital solutions from concept to code."
   },
   {
     Icon: RxCrop,
-    title: "Devops",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "DevOps",
+    description: "Bridging development and operations for seamless automated workflows."
   },
   {
     Icon: RxPencil2,
     title: "Editing",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Transforming words into engaging narratives with precision."
   },
   {
     Icon: RxReader,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Bringing design concepts to life with creativity and uniqueness."
   },
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+    description: "Boosting online visibility with strategic SEO practices."
+  }
+  
 ];
 
 const ServiceSlider = () => {

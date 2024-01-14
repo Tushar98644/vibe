@@ -42,14 +42,14 @@ const workSlides = {
           link: "https://github.com/Tushar98644/Techexpo_EventsManager",
         },
         {
-          title: "3D-portfolio",
-          path: "/thumb2.jpg",
-          link: "https://github.com/Tushar98644/3D-Portfolio",
-        },
-        {
           title: "Endless Runner",
           path: "/thumb3.jpg",
           link: "https://github.com/Tushar98644/Endless-Runner",
+        },
+        {
+          title: "3D-portfolio",
+          path: "/thumb2.jpg",
+          link: "https://github.com/Tushar98644/3D-Portfolio",
         },
         {
           title: "3D-Rickshaw",
