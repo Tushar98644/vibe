@@ -17,6 +17,7 @@ const Contact = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      // @ts-ignore
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => alert("Thank you. I will get back to you ASAP."))

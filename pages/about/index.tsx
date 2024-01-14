@@ -31,7 +31,6 @@ import {
   SiFirebase,
   SiTurborepo,
   SiStrapi,
-  SiSanity,
   SiCsharp,
 } from "react-icons/si";
 
