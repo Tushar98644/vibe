@@ -31,6 +31,7 @@ module.exports = {
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
+        illusion: 'url("/illusion-bg.png")',
       },
       animation: {
         "spin-slow": "spin 6s linear infinite",

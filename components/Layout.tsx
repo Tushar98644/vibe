@@ -3,7 +3,6 @@ import Head from "next/head";
 
 import Header from "../components/Header";
 import Nav from "../components/Nav";
-import TopLeftImg from "../components/TopLeftImg";
 
 // setup font
 const sora = Sora({
@@ -15,8 +14,7 @@ const sora = Sora({
 const Layout = ({ children }) => {
   return (
     <main
-      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
-    >
+      className={`page bg-illusion text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
       {/* metadata */}
       <Head>
         <title>Tushar Banik | Portfolio</title>
@@ -31,8 +29,6 @@ const Layout = ({ children }) => {
         <meta name="author" content="Sanidhya Kumar Verma" />
         <meta name="theme-color" content="#f13024" />
       </Head>
-
-      <TopLeftImg />
       <Nav />
       <Header />
 
