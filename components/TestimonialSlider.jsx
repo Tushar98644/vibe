@@ -13,22 +13,22 @@ const testimonialData = [
     name: "Anne Smith",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Exceptional service! The team went above and beyond to meet our needs. Their innovative solutions transformed our project and exceeded our expectations."
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
+    name: "Jane Halter",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Working with this team was a pleasure. They delivered quality work on time and showed a keen understanding of our requirements. Highly recommended!"
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
+    name: "John Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
-  },
+      "Impressed with the professionalism and expertise. The team tackled challenges with ease, delivering a seamless experience. Looking forward to future collaborations!"
+  }   
 ];
 
 const TestimonialSlider = () => {

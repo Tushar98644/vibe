@@ -39,7 +39,6 @@ const serviceData = [
     title: "SEO",
     description: "Boosting online visibility with strategic SEO practices."
   }
-  
 ];
 
 const ServiceSlider = () => {
