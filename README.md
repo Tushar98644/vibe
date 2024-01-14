@@ -79,17 +79,23 @@ Here is the folder structure of this app.
 
 ## :camera: Screenshots:
 
-![3D UI/UX](public/screenshots/home.png "3D UI/UX")
+## 3D Landing
+<img width="1440" alt="Screenshot 2024-01-14 at 11 24 54 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/0807df15-6e87-4952-909c-ba8de251843b">
 
-![About](public/screenshots/about.png "About")
+## About
+<img width="1440" alt="Screenshot 2024-01-14 at 11 25 12 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/88761725-1ca7-4c8a-9592-03346087b785">
 
-![Services](public/screenshots/services.png "Services")
+## Services
+<img width="1440" alt="Screenshot 2024-01-14 at 11 25 28 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/02e9537f-489d-4ef2-bad7-b0c59e93ba4b">
 
-![Showcase Projects](public/screenshots/work.png "Showcase Projects")
+## Work
+<img width="1440" alt="Screenshot 2024-01-14 at 11 25 47 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/e9ee47b0-0746-4815-9bc7-7d352534ed86">
 
-![Testimonials](public/screenshots/testimonials.png "Testimonials")
+## Testimonials
+<img width="1440" alt="Screenshot 2024-01-14 at 11 26 04 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/0a34057c-4d69-44f3-b18f-41f5edce79b5">
 
-![Contact Form](public/screenshots/contact.png "Contact Form")
+## Contact Form
+<img width="1440" alt="Screenshot 2024-01-14 at 11 26 20 AM" src="https://github.com/Tushar98644/3D-Portfolio/assets/107763774/63cb2c4d-5360-4bde-bce1-6503561b4dab">
 
 ## :gear: Tech Stack
 
