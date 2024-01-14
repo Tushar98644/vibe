@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Modern Portfolio using Next.js and Framer Motion
+# 3D Portfolio using Next.js and Framer Motion
 
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/Tushar98644 "Ask Me Anything!")
 [![GitHub license](https://flat.badgen.net/github/license/Tushar98644/3D-portfolio?icon=github&color=black&scale=1.01)](https://github.com/Tushar98644/3D-portfolio/blob/main/LICENSE "GitHub license")
@@ -42,7 +42,7 @@
 Here is the folder structure of this app.
 
 ```bash
-modern-portfolio/
+3D-portfolio/
   |- components/
   |- pages/
     |-- about/
@@ -79,7 +79,7 @@ modern-portfolio/
 
 ## :camera: Screenshots:
 
-![Modern UI/UX](public/screenshots/home.png "Modern UI/UX")
+![3D UI/UX](public/screenshots/home.png "3D UI/UX")
 
 ![About](public/screenshots/about.png "About")
 
@@ -97,7 +97,7 @@ modern-portfolio/
 
 ## :wrench: Stats
 
-[![Stats for Modern Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed-insights-svg.glitch.me/?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
+[![Stats for 3D Portfolio](/.github/images/stats.svg "Stats for 3D Portfolio")](https://vercel.com/tushar98644/3-d-portfolio/speed-insights/ "Stats for 3D Portfolio")
 
 ## :raised_hands: Contribute
 
@@ -105,7 +105,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in Modern Portfolio.
+Useful resources and dependencies that are used in 3D Portfolio.
 
 ### Production Dependencies
 
@@ -136,8 +136,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 ## :rocket: Follow Me
 
 [![GitHub followers](https://img.shields.io/github/followers/Tushar98644?style=social&label=Follow&maxAge=2592000)](https://github.com/Tushar98644 "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTushar98644%2F3D-portfolio "Tweet")
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")
+[![Linkedin](https://img.shields.io/badge/Linkedin-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tushar-banik/ "Connect")
 
 ## :books: Learn More
 
