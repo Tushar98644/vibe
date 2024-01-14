@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HiBookOpen } from "react-icons/hi2";
 
 import {
   RiYoutubeLine,
@@ -7,6 +8,7 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiTreasureMapFill,
 } from "react-icons/ri";
 
 export const socialData = [
@@ -21,9 +23,9 @@ export const socialData = [
     Icon: RiInstagramLine,
   },
   {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
+    name: "Resume",
+    link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:ae831ad0-c29c-4b31-a2ad-848ff4d07004",
+    Icon: HiBookOpen,
   },
   {
     name: "Dribbble",
