@@ -40,7 +40,9 @@
 ## :bangbang: Folder Structure
 
 Here is the folder structure of this app.
-Tushar98644/3D-portfolio/
+
+```bash
+modern-portfolio/
   |- components/
   |- pages/
     |-- about/
@@ -77,13 +79,17 @@ Tushar98644/3D-portfolio/
 
 ## :camera: Screenshots:
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+![Modern UI/UX](public/screenshots/home.png "Modern UI/UX")
 
-![Services](/.github/images/img2.png "Services")
+![About](public/screenshots/about.png "About")
 
-![Showcase Projects](/.github/images/img3.png "Showcase Projects")
+![Services](public/screenshots/services.png "Services")
 
-![Contact Form](/.github/images/img4.png "Contact Form")
+![Showcase Projects](public/screenshots/work.png "Showcase Projects")
+
+![Testimonials](public/screenshots/testimonials.png "Testimonials")
+
+![Contact Form](public/screenshots/contact.png "Contact Form")
 
 ## :gear: Tech Stack
 
@@ -91,7 +97,7 @@ Tushar98644/3D-portfolio/
 
 ## :wrench: Stats
 
-[![Stats for 3D-Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed-insights-svg.glitch.me/?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
+[![Stats for Modern Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed-insights-svg.glitch.me/?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
 
 ## :raised_hands: Contribute
 
@@ -125,7 +131,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 
 ## :coffee: Buy Me a Coffee
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/Tushar "Buy me a Coffee")
+[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/Tushar98644 "Buy me a Coffee")
 
 ## :rocket: Follow Me
 
