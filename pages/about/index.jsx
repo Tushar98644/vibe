@@ -10,6 +10,7 @@ import {
   FaVuejs,
   FaNodeJs,
   FaUnity,
+  FaBootstrap,
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
@@ -31,6 +32,7 @@ import {
   SiTurborepo,
   SiStrapi,
   SiSanity,
+  SiCsharp,
 } from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
@@ -47,6 +49,7 @@ export const aboutData = [
         icons: [
           FaHtml5,
           FaCss3,
+          FaBootstrap,
           SiTailwindcss,
           FaJs,
           SiTypescript,
@@ -73,7 +76,7 @@ export const aboutData = [
       },
       {
         title : "Game Development",
-        icons : [FaUnity,SiThreedotjs]
+        icons : [FaUnity,SiThreedotjs,SiCsharp]
       },
       {
         title : "App Development",
