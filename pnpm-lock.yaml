@@ -36,8 +36,8 @@ dependencies:
     specifier: ^11.0.5
     version: 11.0.5
   tailwind-scrollbar:
-    specifier: ^3.0.4
-    version: 3.0.4(tailwindcss@3.3.2)
+    specifier: ^3.0.5
+    version: 3.0.5(tailwindcss@3.3.2)
   tsparticles:
     specifier: ^3.1.0
     version: 3.1.0
@@ -2807,8 +2807,8 @@ packages:
     engines: {node: '>= 4.7.0'}
     dev: false
 
-  /tailwind-scrollbar@3.0.4(tailwindcss@3.3.2):
-    resolution: {integrity: sha512-X/QBsn/C5u9x6/YvTc1Zo7b09Gqs5BfDe0UK/8LDQUv8IEBKF+p2ISTRwvAr50MH0hn/wTyCEOann7uXoa1/2Q==}
+  /tailwind-scrollbar@3.0.5(tailwindcss@3.3.2):
+    resolution: {integrity: sha512-0ZwxTivevqq9BY9fRP9zDjHl7Tu+J5giBGbln+0O1R/7nHtBUKnjQcA1aTIhK7Oyjp6Uc/Dj6/dn8Dq58k5Uww==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: 3.x
