@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-undef */
-import {Navbar,Hero ,About} from "@/components"
+import {Navbar,Hero,About,Work} from "@/components"
 import { Fragment } from 'react'
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
           <Navbar/>
           <Hero/>
           <About/>
+          <Work/>
     </Fragment>
   )
 }
