@@ -5,14 +5,13 @@ import { FaMoon } from "react-icons/fa";
 const Navbar = () => {
     return (
         <div className="bg-black flex flex-row justify-between text-white px-48 py-12">
-            <div className="font-black text-3xl underline">
+            <Link className="font-black text-3xl underline cursor-pointer" href="/">
                 T
-            </div>
+            </Link>
             <div className="links flex flex-row gap-4 font-semibold">
-                <Link href="/">Blog</Link>
-                <Link href="/">Projects</Link>
-                <Link href="/">About</Link>
-                <Link href="/">Uses</Link>
+                <Link href="/blog">Blog</Link>
+                <Link href="/projects">Projects</Link>
+                <Link href="/about">About</Link>
                 <IoSunnyOutline className="cursor-pointer size-6"/>
             </div>
         </div>
