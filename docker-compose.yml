@@ -1,0 +1,7 @@
+version: '3'
+services:
+  portfolio:
+    container_name: portfolio
+    image: 973347056683.dkr.ecr.ap-south-1.amazonaws.com/portfolio:v-1.0
+    ports:
+      - 3000:3000
