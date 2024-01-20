@@ -1,8 +1,10 @@
+import { CommonHero } from "@/components";
+
 const Projects = () => {
     return ( 
-        <div>
-            <h1>Projects</h1>
-        </div>
+        <>
+        <CommonHero title={"Projects"} subtitle={"Here are some my selected projects worth looking into."} position={"start"}/>
+        </>
      );
 }
  

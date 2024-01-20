@@ -1,8 +1,10 @@
+import { CommonHero } from "@/components";
+
 const About = () => {
     return ( 
-        <div>
-            about
-        </div>
+        <>
+            <CommonHero title="Tushar Banik" subtitle="I develop things for the web" position="start"/>
+        </>
      );
 }
  

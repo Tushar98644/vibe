@@ -4,7 +4,7 @@ import { FaMoon } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className="bg-black flex flex-row justify-between text-white px-48 py-12">
+        <div className="bg-black flex flex-row justify-between text-white px-40 py-12">
             <Link className="font-black text-3xl underline cursor-pointer" href="/">
                 T
             </Link>
