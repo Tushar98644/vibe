@@ -7,10 +7,10 @@ export interface Hero {
 
 const Hero = ({ title, subtitle, position, children }: Hero) => {
     return (
-        <div className={`bg-black flex flex-col gap-2 px-40 items-${position} py-16`}>
+        <div className={`bg-black flex flex-col gap-2 px-40 items-${position} py-8`}>
             <div className="text-5xl text-gray-100 font-medium">{title}</div>
             <div className="text-lg text-gray-400 opacity-40">{subtitle}</div>
-            <div className="pt-12 w-full">
+            <div className="pt-10 w-full">
                 {children}
             </div>
         </div>
