@@ -1,15 +1,15 @@
 'use client'
-
+import { useLenis } from "@studio-freight/react-lenis/types";
+import { useMemo } from "react";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 
-const Scroll = () => {
-    window.scrollTo({
-        top: window.innerHeight,
-        behavior: 'smooth'
-      });
-};
-
 const Hero = () => {
+
+    const Scroll = () => window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth',
+    })
+
     return (
         <div className="bg-black text-white flex flex-col px-40 py-40 gap-4 items-start pb-80">
             <strong className="text-8xl font-semibold">Tushar Banik</strong>
