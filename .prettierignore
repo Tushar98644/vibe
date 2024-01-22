@@ -1,6 +1,7 @@
 .next
 next-env.d.ts
 node_modules
+# prettier by default ignores all files inside node_modules
 yarn.lock
 pnpm-lock.yaml
 package-lock.json
