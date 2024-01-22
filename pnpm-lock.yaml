@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@studio-freight/react-lenis':
     specifier: ^0.0.43
@@ -93,6 +97,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -696,7 +701,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001579
-      electron-to-chromium: 1.4.640
+      electron-to-chromium: 1.4.641
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
@@ -915,8 +920,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.640:
-    resolution: {integrity: sha512-z/6oZ/Muqk4BaE7P69bXhUhpJbUM9ZJeka43ZwxsDshKtePns4mhBlh8bU5+yrnOnz3fhG82XLzGUXazOmsWnA==}
+  /electron-to-chromium@1.4.641:
+    resolution: {integrity: sha512-JetAF3M5Lr9hwzDe3oMmWFOydlclqt2loEljxc0AAP5NYM170sSW+F5/cn5ROBfjx5LdmzeeAgWnyAU9cjPhmA==}
     dev: true
 
   /emoji-regex@10.3.0:
