@@ -10,8 +10,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --check"
+    "*.{md,js,ts,tsx}": [
+      "eslint --fix"
     ]
   },
   "dependencies": {
