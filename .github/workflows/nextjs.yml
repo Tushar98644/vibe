@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node and pnpm
         uses: actions/setup-node@v4
         with:
-          node-version: "14"
+          node-version: "18"
       - run: npm install -g pnpm
 
       - name: Detect package manager
