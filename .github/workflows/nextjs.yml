@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: aaactions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Setup Node and pnpm
         uses: actions/setup-node@v4
@@ -59,7 +59,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: nextjs-artifact
+          path: out
+
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
