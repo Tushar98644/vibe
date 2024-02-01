@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@studio-freight/react-lenis':
     specifier: ^0.0.43
-    version: 0.0.43(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+    version: 0.0.43(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0)
   framer-motion:
     specifier: ^11.0.3
     version: 11.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^20.11.14
     version: 20.11.14
   '@types/react':
-    specifier: ^18.2.48
-    version: 18.2.48
+    specifier: ^18.2.51
+    version: 18.2.51
   '@types/react-dom':
     specifier: ^18.2.18
     version: 18.2.18
@@ -323,7 +323,7 @@ packages:
     resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
     dev: true
 
-  /@studio-freight/hamo@0.6.28(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+  /@studio-freight/hamo@0.6.28(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-LVXYJwPToVa4ZVIbFnicg8bmZF8xWebbdtx10/1HAQAjN8xGsTWAdc3BmUUOHtLWFvNJNLSuwdX24njrp7LF7g==}
     peerDependencies:
       react: ^18.2.0
@@ -334,7 +334,7 @@ packages:
       nanoevents: 9.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      zustand: 4.5.0(@types/react@18.2.48)(react@18.2.0)
+      zustand: 4.5.0(@types/react@18.2.51)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -344,19 +344,19 @@ packages:
     resolution: {integrity: sha512-sEyzEjfAsTlFgDebMYT5G7tlB0ZHhWkHEoJj0g7W0YYZO093Mh4MU65o1qbNKwRacspdU04ZrA+5Wxwt4dsS7Q==}
     dev: false
 
-  /@studio-freight/react-lenis@0.0.43(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0):
+  /@studio-freight/react-lenis@0.0.43(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-kgRif4MGcmPWuyIWLBc9ghOIQ/ql7lO2YTIZMv2UCohz37G4fCR8+PLCzJl9/q5iP7481pWdAuFJVYf3xJ/rpg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@studio-freight/hamo': 0.6.28(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
+      '@studio-freight/hamo': 0.6.28(@types/react@18.2.51)(react-dom@18.2.0)(react@18.2.0)
       '@studio-freight/lenis': 1.0.34
       clsx: 2.1.0
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      zustand: 4.5.0(@types/react@18.2.48)(react@18.2.0)
+      zustand: 4.5.0(@types/react@18.2.51)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -388,11 +388,11 @@ packages:
   /@types/react-dom@18.2.18:
     resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.48
+      '@types/react': 18.2.51
     dev: true
 
-  /@types/react@18.2.48:
-    resolution: {integrity: sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w==}
+  /@types/react@18.2.51:
+    resolution: {integrity: sha512-XeoMaU4CzyjdRr3c4IQQtiH7Rpo18V07rYZUucEZQwOUEtGgTXv7e6igQiQ+xnV6MbMe1qjEmKdgMNnfppnXfg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3151,7 +3151,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zustand@4.5.0(@types/react@18.2.48)(react@18.2.0):
+  /zustand@4.5.0(@types/react@18.2.51)(react@18.2.0):
     resolution: {integrity: sha512-zlVFqS5TQ21nwijjhJlx4f9iGrXSL0o/+Dpy4txAP22miJ8Ti6c1Ol1RLNN98BMib83lmDH/2KmLwaNXpjrO1A==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
@@ -3166,7 +3166,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.48
+      '@types/react': 18.2.51
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
