@@ -1,7 +1,7 @@
 "use client";
-import { useLenis } from "@studio-freight/react-lenis/types";
-import { useMemo } from "react";
+import { useEffect } from "react";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
+import { renderCanvas } from "./render_canvas";
 
 const Hero = () => {
   const Scroll = () =>
@@ -9,6 +9,10 @@ const Hero = () => {
       top: window.innerHeight,
       behavior: "smooth",
     });
+
+  useEffect(() => {
+    renderCanvas();
+  }, []);
 
   return (
     <div className="bg-black text-white flex flex-col px-40 py-40 gap-4 items-start pb-80">
@@ -25,6 +29,10 @@ const Hero = () => {
       >
         <HiOutlineArrowNarrowDown size={20} />
       </div>
+      <canvas
+        className="bg-skin-base pointer-events-none absolute inset-0"
+        id="canvas"
+      ></canvas>
     </div>
   );
 };
