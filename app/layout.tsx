@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components";
-import { ScrollProvider } from "@/Providers/ScrollProvider";
+import LenisProvider from "@/Providers/LenisProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`inter.className bg-white`}>
-        <ScrollProvider>
+        <LenisProvider>
           <Navbar />
           {children}
-        </ScrollProvider>
+        </LenisProvider>
       </body>
     </html>
   );

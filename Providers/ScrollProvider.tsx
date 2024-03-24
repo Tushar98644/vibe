@@ -1,16 +1,30 @@
 "use client";
-import { ReactLenis } from "@studio-freight/react-lenis";
 
-export const ScrollProvider = ({ children }: { children: React.ReactNode }) => {
+import { useLenis } from "@studio-freight/react-lenis";
+import { createContext, ReactNode, useState } from "react";
+
+interface ScrollValue {
+  scrollY: number;
+}
+
+export const ScrollContext = createContext<ScrollValue>({
+  scrollY: 0,
+});
+
+interface ScrollProviderProps {
+  children: ReactNode;
+}
+
+export const ScrollProvider = ({ children }: ScrollProviderProps) => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useLenis(({ scroll }: any) => {
+    setScrollY(scroll);
+  });
+
   return (
-    <ReactLenis
-      root
-      options={{
-        lerp: 0.05,
-        smoothTouch: true,
-      }}
-    >
+    <ScrollContext.Provider value={{ scrollY }}>
       {children}
-    </ReactLenis>
+    </ScrollContext.Provider>
   );
 };
