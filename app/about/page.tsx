@@ -1,11 +1,11 @@
-import { CommonHero } from "@/components";
 import AuthorLayout from "@/components/About/AuthorLayout";
+import Timeline from "@/components/About/Timeline";
 
 const About = () => {
   return (
     <>
       <AuthorLayout>
-        <p>hello</p>
+        <Timeline />
       </AuthorLayout>
     </>
   );

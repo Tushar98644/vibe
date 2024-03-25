@@ -20,7 +20,7 @@ const Hero = () => {
       <p className="text-6xl opacity-80 font-medium px-4">
         I build things for the web.
       </p>
-      <p className="text-xl font-semibold hover:underline pl-4">
+      <p className="text-xl cursor-pointer font-semibold underline-magical pl-4">
         Read more about me &rarr;
       </p>
       <div
