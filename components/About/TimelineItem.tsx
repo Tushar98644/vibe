@@ -1,11 +1,5 @@
-import {
-  ReactElement,
-  JSXElementConstructor,
-  ReactNode,
-  ReactPortal,
-  AwaitedReactNode,
-  Key,
-} from "react";
+import Link from "next/link";
+import { Key } from "react";
 
 interface TimelineProps {
   year: string;
@@ -21,20 +15,16 @@ export default function TimelineItem({ year, data }: TimelineProps) {
         <ul className="skills-list">
           {data.skills.map(
             (
-              skill:
-                | string
-                | number
-                | boolean
-                | ReactElement<any, string | JSXElementConstructor<any>>
-                | Iterable<ReactNode>
-                | ReactPortal
-                | Promise<AwaitedReactNode>
-                | null
-                | undefined,
+              skill: {
+                name: string;
+                link: string;
+              },
               index: Key | null | undefined,
             ) => (
               <li key={index} className="skill">
-                {skill}
+                <Link className="underline-magical" href={skill?.link}>
+                  {skill?.name}
+                </Link>
               </li>
             ),
           )}
