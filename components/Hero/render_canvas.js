@@ -1,18 +1,8 @@
-function n(e: {
-  phase: number;
-  amplitude: number;
-  frequency: number;
-  offset: number;
-}) {
+function n(e) {
   this.init(e || {});
 }
 n.prototype = {
-  init: function (e: {
-    phase: number;
-    offset: number;
-    frequency: number;
-    amplitude: number;
-  }) {
+  init: function (e) {
     this.phase = e.phase || 0;
     this.offset = e.offset || 0;
     this.frequency = e.frequency || 0.001;
@@ -29,12 +19,12 @@ n.prototype = {
   },
 };
 
-function Line(e: { spring: number }) {
+function Line(e) {
   this.init(e || {});
 }
 
 Line.prototype = {
-  init: function (e: { spring: number }) {
+  init: function (e) {
     this.spring = e.spring + 0.1 * Math.random() - 0.05;
     this.friction = E.friction + 0.01 * Math.random() - 0.005;
     this.nodes = [];
@@ -86,24 +76,19 @@ Line.prototype = {
   },
 };
 
-function onMousemove(e: any) {
+function onMousemove(e) {
   function o() {
     lines = [];
     for (var e = 0; e < E.trails; e++)
       lines.push(new Line({ spring: 0.45 + (e / E.trails) * 0.025 }));
   }
-  function c(e: {
-    touches: { pageY: any }[];
-    clientX: any;
-    clientY: any;
-    preventDefault: () => any;
-  }) {
+  function c(e) {
     e.touches
       ? ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY))
       : ((pos.x = e.clientX), (pos.y = e.clientY)),
       e.preventDefault();
   }
-  function l(e: { touches: string | any[] }) {
+  function l(e) {
     1 == e.touches.length &&
       ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY));
   }
@@ -138,24 +123,11 @@ function resizeCanvas() {
   ctx.canvas.height = window.innerHeight;
 }
 
-var ctx: {
-    beginPath: () => void;
-    moveTo: (arg0: any, arg1: any) => void;
-    quadraticCurveTo: (arg0: any, arg1: any, arg2: any, arg3: any) => void;
-    stroke: () => void;
-    closePath: () => void;
-    running: boolean;
-    globalCompositeOperation: string;
-    clearRect: (arg0: number, arg1: number, arg2: any, arg3: any) => void;
-    canvas: { width: number; height: number };
-    strokeStyle: string;
-    lineWidth: number;
-    frame: number;
-  },
-  f: { update: () => number },
+var ctx,
+  f,
   e = 0,
   pos = {},
-  lines: any[] = [],
+  lines = [],
   E = {
     debug: true,
     friction: 0.5,
@@ -164,7 +136,7 @@ var ctx: {
     dampening: 0.25,
     tension: 0.98,
   };
-function Node(this: any) {
+function Node() {
   this.x = 0;
   this.y = 0;
   this.vy = 0;
