@@ -1,7 +1,7 @@
 const SearchBar = () => {
   return (
     <form>
-      <div className="flex">
+      <div className="flex pb-4">
         <div className="relative w-full">
           <input
             type="search"

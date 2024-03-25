@@ -1,13 +1,12 @@
 import { CommonHero } from "@/components";
+import AuthorLayout from "@/components/About/AuthorLayout";
 
 const About = () => {
   return (
     <>
-      <CommonHero
-        title="Tushar Banik"
-        subtitle="I develop things for the web"
-        position="start"
-      />
+      <AuthorLayout>
+        <p>hello</p>
+      </AuthorLayout>
     </>
   );
 };
