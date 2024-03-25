@@ -1,0 +1,81 @@
+import { Project } from "./types";
+
+export const projects: Project[] = [
+  {
+    title: "ProjectHub",
+    src: "projecthub.png",
+    color: "#dbeafe",
+    url: "https://www.project-hub.live",
+    role: "Fullstack Developer",
+  },
+  {
+    title: "Ribo Replicator",
+    src: "ribo-replicator.png",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Ribo-Replicator",
+    role: "Fullstack Developer",
+  },
+  {
+    title: "Code Crafted",
+    src: "code-crafted.webp",
+    color: "#ddd6fe",
+    url: "https://github.com/Tushar98644/Code-Crafted",
+    role: "Fullstack Developer",
+  },
+  {
+    title: "OpsBox",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/OpsBox",
+    role: "DevOps Engineer",
+  },
+  {
+    title: "Translead",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Translead_Website",
+    role: "Frontend Developer",
+  },
+  {
+    title: "3D Rickshaw",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/3D-Rickshaw",
+    role: "Game Developer",
+  },
+  {
+    title: "Endless Runner",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Endless-Runner",
+    role: "Frontend Developer",
+  },
+  {
+    title: "Zombie Apocalypse",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Zombie_Apocalypse",
+    role: "Frontend Developer",
+  },
+  {
+    title: "Attendance System",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/NSS-attendance",
+    role: "App Developer",
+  },
+  {
+    title: "Tourist Guide App",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Tourist_Guide_App",
+    role: "App Developer",
+  },
+  {
+    title: "Techexpo Events Manager",
+    src: "blog-app.webp",
+    color: "#fae8ff",
+    url: "https://github.com/Tushar98644/Techexpo_EventsManager",
+    role: "Fullstack Developer",
+  },
+];
